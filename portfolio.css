@@ -3,11 +3,12 @@ html{
 }
 
 body {
+    color: #ECE2D0;
     margin: 0%; /*ensures site displays all the way to edge of browser screen*/
-        opacity: 1;/*this and transition affect the page loading fade in effect*/
-        transition: 5s opacity; /*causes 5 second fade in*/
+    opacity: 1;/*this and transition affect the page loading fade in effect*/
+    transition: 5s opacity; /*causes 5 second fade in*/
     letter-spacing: .3vw;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2vw
 }
 
@@ -21,7 +22,7 @@ body.fade-out {
 /*Navbar*/
 .Navbar {
     overflow: hidden; 
-    background-color: rgb(71, 48, 48);
+    background-color: #F07167;
     position: fixed;
     top: 0;/*Eliminates space display above navbar*/
     width: 100%; /*makes navbar span entire width of page*/
@@ -35,16 +36,16 @@ body.fade-out {
 .Navbar a{
     float: left;
     display: block;
-    color: #84a3a3;
+    color: #ECE2D0;
     padding: .75vw 1vw;
     text-decoration: none;
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 2vw;
     text-align: center;
-        position: relative;
+    position: relative;
     -webkit-animation: movenavText 5.75s;
-        animation: movenavText 5.75s;
-        letter-spacing: 1vw;
+    animation: movenavText 5.75s;
+    letter-spacing: 1vw;
 }
 
 /*slides nav bar in from above/top of page upon page load*/
@@ -66,8 +67,8 @@ body.fade-out {
 
 /*navbar hover effect*/
 .Navbar a:hover {
-    background-color: #98bdbd;
-    color: #425050;
+    background-color: #539987;
+    color: #54494B;
     font-weight: bold;
     cursor: pointer;
     -webkit-transition-duration: 1s;
@@ -76,7 +77,7 @@ body.fade-out {
 
 /*navbar home button*/
 .Navbar a.active {
-    background-color: #3e5a5a;
+    background-color: #539987;
 }
 
 /*zooms video out from zoomed in position upon page load*/
@@ -267,18 +268,18 @@ h1 {
     font-family: "Trebuchet MS", Optima;
     text-align: center;
     margin-top: 3%;
-    color: #99d8d8;
+    color: #539987;
 }
 
 /*P elements*/
 p {
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: justify;
     letter-spacing: .1vw;
     font-size: 2vw;
     padding-left: 1vw;
     padding-right: 1vw;
-    color: floralwhite;
+    color: #ECE2D0;
 }
 
 
@@ -319,18 +320,7 @@ center:hover{
     transform: scale(1.1);
 }
 
-/*P element hover*/
-p:hover {
-    color: #00004d;
-        transition: transform 1s;
-    transform: scale(1.01);
-}
 
-/*H1 hover*/
-h1:hover {
-    color: black;
-    font-weight: normal; /*removes bold upon hover*/
-}
 
 /*Img hover*/
 img:hover {
@@ -440,5 +430,6 @@ button:hover, .form-container .btn:hover {
 /*Footer element*/
 footer {
     padding: 2%;
-    background-color: #cdffff;
+    background-color: #001A23;
+    color: #ECE2D0;
 }
